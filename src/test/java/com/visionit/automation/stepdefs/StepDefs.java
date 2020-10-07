@@ -42,7 +42,7 @@ public class StepDefs {
        HomePageObject homePageObjects;
       SearchPageObject  searchPageObjects;
        ProductDescreption productDescreptionPageObjects;
-       SignInPageObjects signinpageobject;
+       
           
 	@Before
 	
@@ -59,7 +59,7 @@ public class StepDefs {
 			homePageObjects=new HomePageObject(driver);
 			searchPageObjects=new SearchPageObject(driver);
 			productDescreptionPageObjects=new ProductDescreption(driver);
-			signinpageobject =new SignInPageObjects(driver);
+		
 		}
 		
 	@After

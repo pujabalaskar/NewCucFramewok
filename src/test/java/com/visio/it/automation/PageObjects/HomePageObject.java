@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePageObject {
 
+	
 private static final Logger logger=LogManager.getLogger(HomePageObject.class);
 	
 	private WebDriver driver;

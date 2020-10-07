@@ -11,6 +11,7 @@ import junit.framework.Assert;
 
 public class SearchPageObject {
 
+	
 private static final Logger logger=LogManager.getLogger(SearchPageObject.class);
 	
 	
